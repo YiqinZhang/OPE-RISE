@@ -1,5 +1,5 @@
 /*
- * this is loaded together with README.ipynb
+ * this is loaded together with blackTheme.ipynb
  * because it's named the same with css extension
  */
 
@@ -48,20 +48,15 @@ div.jp-Notebook .jp-Cell:not(.jp-mod-active) .jp-OutputPrompt {
 }
 
 /* ---------- hide input cell number----------*/
-div.jp-InputPrompt{
-    color: rgba(0, 0, 0, 0);
+div.jp-InputPrompt, div.jp-InputArea-editor{
+    display: none;
 }
 div.jp-Notebook .jp-Cell:not(.jp-mod-active) .jp-InputPrompt {
-    color: rgba(0, 0, 0, 0);
-}
-div.jp-InputArea-editor {
-    border:rgba(0, 0, 0, 0);
-    background-color: #191919;
+    display: none;
 }
 
 /* ---------- hide the three dots after folding the cells
 */
 div.f1m36mmi svg{
     display: none;
-    visibility: hidden;
 }
