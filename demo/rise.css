@@ -75,7 +75,6 @@ div.text_cell_render.rendered_html {
 
 /*
  * This is for BLACK THEME setting
- * 
  */
 
 /* not very useful, but an OBVIOUS setting that you cannot miss */
@@ -133,4 +132,9 @@ div.jp-Notebook .jp-Cell:not(.jp-mod-active) .jp-InputPrompt {
 /* ---------- hide the three dots after folding the cells-----*/
 div.f1m36mmi svg{
     display: none;
+}
+
+/* ----------disply header & footer----------*/
+div#rise-header, div#rise-footer{
+    z-index: 20;
 }
