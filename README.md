@@ -1,9 +1,10 @@
 # OPE-RISE
 Explore RISE for JupyterLab Slideshow for Open Source Education
 
-Enrich the fowlling features:
+Enrich the following features:
 - Black Theme
-- Code Input Hidden
+- Hidden Code Input
 - Speaker Notes
-- Keyboard shortcut 
-- Chalkboard 
+- Keyboard Shortcut 
+- Chalkboard & Draw 
+- Header & Footer
