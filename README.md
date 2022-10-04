@@ -1,5 +1,5 @@
 # OPE-RISE
-Explore RISE for JupyterLab Slideshow for Open Source Education
+Explore RISE on JupyterLab for slide presentations for Open Source Education
 
 Enrich the following features:
 - Black Theme
@@ -8,3 +8,4 @@ Enrich the following features:
 - Keyboard Shortcut 
 - Chalkboard & Draw 
 - Header & Footer
+- Toggle RISE Control Buttons
